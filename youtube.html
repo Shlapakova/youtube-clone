@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>YouTube.com Clone</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="left-section">
+      <img class="hamburger-menu" src="icons/hamburger-menu.svg">
+      <img class="youtube-logo" src="icons/youtube-logo.svg">
+    </div>
+    <div class="middle-section">
+      <input class="search-bar" type="text" placeholder="Search">
+      <button class="search-button">
+        <img class="search-icon" src="icons/search.svg">
+        <div class="tooltip">Search</div>
+      </button>
+      <button class="voice-button">
+        <img class="voice-icon" src="icons/voice-search-icon.svg">
+        <div class="tooltip">Search with your voice</div>
+      </button>
+    </div>
+    <div class="right-section">
+      <div class="upload-container">
+        <img class="upload-icon" src="icons/upload.svg">
+        <div class="tooltip">
+          Create
+        </div>
+      </div>
+      <div>
+        <img class="youtube-apps-icon" src="icons/youtube-apps.svg">
+        <div></div>
+      </div>
+      <div class="notifications-container">
+        <img class="notifications-icon" src="icons/notifications.svg">
+        <div class="notifications-count">
+          3
+        </div>
+      </div>
+      <img class="current-user-icon" src="images/me.jpg">
+    </div>
+  </header>
+
+  <nav class="sidebar">
+    <div class="sidebar-link">
+      <img src="icons/home.svg">
+      <div>Home</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="icons/explore.svg">
+      <div>Explore</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="icons/subscriptions.svg">
+      <div>Subscriptions</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="icons/originals.svg">
+      <div>Originals</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="icons/youtube-music.svg">
+      <div>YouTube Music</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="icons/library.svg">
+      <div>Library</div>
+    </div>
+  </nav>
+
+  <main>
+    <section class="video-grid">
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="images/1.webp">
+          <div class="video-time">21:40</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="images/1.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              The Exercise Neuroscientist: NEW RESEARCH
+            </p>
+            <p class="video-author">
+              Marques Brownlee &#10003;
+            </p>
+            <p class="video-stats">
+              4.6M views &#183; 1 month ago
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="images/2.webp">
+          <div class="video-time">15:00</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="images/2.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              15 MIN BOOTY SHELF - LIFT YOUR GLUTES, Gym Style I Weight & Booty Band
+            </p>
+            <p class="video-author">
+              Pamela Reif &#10003;
+            </p>
+            <p class="video-stats">
+              97K views &#183; 4 days ago
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="images/3.webp">
+          <div class="video-time">32:05</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="images/3.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Create Crazy 3D Image Slider Effects Using CSS Only
+            </p>
+            <p class="video-author">
+              Lun Dev Code
+            </p>
+            <p class="video-stats">
+              134K views &#183; 6 weeks ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="images/4.webp">
+          <div class="video-time">19:15</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="images/4.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              8 Ways to Become More Emotionally Mature
+            </p>
+            <p class="video-author">
+              Psych2Go &#10003;
+            </p>
+            <p class="video-stats">
+              3.3 M views &#183; 3 years ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="images/5.webp">
+          <div class="video-time">28:20</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="images/5.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Learn English with RATATOUILLE — Remy Meets LinguiniH
+            </p>
+            <p class="video-author">
+              Learn English With TV Series
+            </p>
+            <p class="video-stats">
+              1.8 M views &#183; 1 year ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="images/6.webp">
+          <div class="video-time">10:30</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="images/6.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              CHIA PUDDING » 6 Flavours for Easy, Healthy Breakfast Snacks | Spring/Summer Meal Prep
+            </p>
+            <p class="video-author">
+              Toasty Apron &#10003;
+            </p>
+            <p class="video-stats">
+              2.1M views &#183; 1 year ago
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>
